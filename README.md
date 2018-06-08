@@ -15,7 +15,7 @@
 
 ==============================================================
 
-#OBJECTIVES
+# OBJECTIVES
   * Draw this domain on a whiteboard or http://awwapp.com/
   * Build out the three classes and files from scratch (keep in mind the relationships)
   * Think about how the classes will interact -- how does a doctor know about their patients?
@@ -25,7 +25,7 @@
 
 ==============================================================
 
-#DELIVERABLES
+# DELIVERABLES
   * DOCTOR
     * #initialize a doctor is initialized with a name and a specialty
     * a doctor cannot change their name, but can change their specialty
