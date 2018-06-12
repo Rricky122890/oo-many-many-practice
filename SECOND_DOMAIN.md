@@ -36,7 +36,7 @@
     * #customer_names return an array of just the names of said customers, not the full object
 
     ====== BONUS ======
-    * Restaurant.find_by_specialty takes in a specialty as an argument and finds a doctor by a given specialty
+    * Restaurant.find_by_cuisine takes in a cuisine as an argument and finds a restaurant by a given cuisine
 
 ==============================================================
   * CUSTOMER
@@ -49,7 +49,7 @@
   * INSTANCE METHODS
     * #orders returns an array of all the orders associated with an instance of patient
     * #place_order creates a new order instance taking in a restaurant and a dish
-    
+
     ====== BONUS ======
     * Customer.find_by_name takes in name as an argument and finds a customer by a given name
     * #fav_restaurant returns the restaurant that has the highest number of orders placed by the instance of customer
