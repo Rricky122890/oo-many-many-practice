@@ -31,7 +31,7 @@
     * Restaurant.all returns all instances of the restaurant class
 
   * INSTANCE METHODS
-    * #order returns an array of all the order instances that belong_to a restaurant
+    * #orders returns an array of all the order instances that belong_to a restaurant
     * #customers return an array of all the customer that have made an order at the restaurant
     * #customer_names return an array of just the names of said customers, not the full object
 
