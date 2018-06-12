@@ -58,6 +58,6 @@
   * ORDER
     * #initialize an order is initialized with a restaurant, a customer and a dish
     * an order has corresponding attribute readers & writers for all three attributes
-    * Order.all returns all instances of the appointment class
+    * Order.all returns all instances of the order class
 
 ==============================================================
