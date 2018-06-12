@@ -1,21 +1,21 @@
 # oo-many-many-practice
 
 # Here's our domain:
-  * Order
-  * Restaurant
-  * Customer
+  * Donation
+  * Donor
+  * Charity
 
 # How is this modeled?
-  * What's the relationship between a customer and an order?
-  * A restaurant and an order?
-  * A customer and a restaurant?
+  * What's the relationship between a Donor and an Donation?
+  * A Charity and an Donation?
+  * A Donor and a Charity?
 
 ==============================================================
 
 #OBJECTIVES
   * Draw this domain on a whiteboard or http://awwapp.com/
   * Build out the three classes and files from scratch (keep in mind the relationships)
-  * Think about how the classes will interact -- how does a restaurant know about their customers?
+  * Think about how the classes will interact -- how does a Charity know about their Donors?
   * Use attr_reader, attr_writer, & attr_accessor
   * Create a run file with a single point of entry
   * Maintain single source of truth for all classes
@@ -23,41 +23,42 @@
 ==============================================================
 
 #DELIVERABLES
-  * Restaurant
-    * #initialize a restaurant is initialized with a name and a cuisine
-    * a restaurant can change their name and cuisine
+  * Charity
+    * #initialize a charity is initialized with a name and a category
+    * a charity can change their name and category
 
   * CLASS METHODS
-    * Restaurant.all returns all instances of the restaurant class
+    * Charity.all returns all instances of the charity class
 
   * INSTANCE METHODS
-    * #orders returns an array of all the order instances that belong_to a restaurant
-    * #customers return an array of all the customer that have made an order at the restaurant
-    * #customer_names return an array of just the names of said customers, not the full object
+    * #donations returns an array of all the order instances that belong_to a charity
+    * #donors return an array of all the customer that have made an donations to the charity
+    * #donor_names return an array of just the names of said donors, not the full object
 
     ====== BONUS ======
-    * Restaurant.find_by_cuisine takes in a cuisine as an argument and finds a restaurant by a given cuisine
+    * Charity.find_by_category takes in a category as an argument and finds a charity by a given category
 
 ==============================================================
-  * CUSTOMER
-    * #initialize a customer is initialized with a name
-    * a customer cannot change their name
+
+  * DONOR
+    * #initialize a donor is initialized with a name
+    * a donor cannot change their name
 
   * CLASS METHODS
-    * Customer.all returns all instances of the customer class
+    * Donor.all returns all instances of the donor class
 
   * INSTANCE METHODS
-    * #orders returns an array of all the orders associated with an instance of customer
-    * #place_order creates a new order instance taking in a restaurant and a dish
+    * #donations returns an array of all the donations associated with an instance of donor
+    * #make_donation creates a new donation instance taking arguments of a Charity and an amount
 
     ====== BONUS ======
-    * Customer.find_by_name takes in name as an argument and finds a customer by a given name
-    * #fav_restaurant returns the restaurant that has the highest number of orders placed by the instance of customer
+    * Donor.find_by_name takes in name as an argument and finds a donor by a given name
 
 ==============================================================
-  * ORDER
-    * #initialize an order is initialized with a restaurant, a customer and a dish
-    * an order has corresponding attribute readers & writers for all three attributes
-    * Order.all returns all instances of the order class
+
+  * DONATION
+    * #initialize a donation is initialized with a donor, a charity and an amount
+    * a donation has corresponding attribute readers & writers for all three attributes
+    * Donation.all returns all instances of the donation class
 
 ==============================================================
