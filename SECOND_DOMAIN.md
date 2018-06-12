@@ -44,10 +44,10 @@
     * a customer cannot change their name
 
   * CLASS METHODS
-    * Customer.all returns all instances of the patient class
+    * Customer.all returns all instances of the customer class
 
   * INSTANCE METHODS
-    * #orders returns an array of all the orders associated with an instance of patient
+    * #orders returns an array of all the orders associated with an instance of customer
     * #place_order creates a new order instance taking in a restaurant and a dish
 
     ====== BONUS ======
