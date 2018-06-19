@@ -19,8 +19,8 @@ Sketch out the domain on a white board to help visualize the relationships.
 #DELIVERABLES
   * BAND
     * Band#initialize a Band is initialized with a name and a genre
-    * a band can change their name and category
-    * Band.all returns all instances of the charity class
+    * a band can change their name and genre
+    * Band.all returns all instances of the band class
 
     * Band#shows returns an array of all the show instances that belong_to a band
     * Band#fans return an array of all the fans that have attended a band's show
