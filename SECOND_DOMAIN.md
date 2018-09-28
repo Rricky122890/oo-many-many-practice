@@ -12,7 +12,7 @@
 
 ==============================================================
 
-#OBJECTIVES
+### OBJECTIVES
   * Draw this domain on a whiteboard or http://awwapp.com/
   * Build out the three classes and files from scratch (keep in mind the relationships)
   * Think about how the classes will interact -- how does a Charity know about their Donors?
@@ -22,8 +22,8 @@
 
 ==============================================================
 
-#DELIVERABLES
-  * Charity
+### DELIVERABLES
+  #### Charity
     * #initialize a charity is initialized with a name and a category
     * a charity can change their name and category
 
@@ -40,7 +40,7 @@
 
 ==============================================================
 
-  * DONOR
+  #### DONOR
     * #initialize a donor is initialized with a name
     * a donor cannot change their name
 
@@ -56,7 +56,7 @@
 
 ==============================================================
 
-  * DONATION
+  #### DONATION
     * #initialize a donation is initialized with a donor, a charity and an amount
     * a donation has corresponding attribute readers & writers for all three attributes
     * Donation.all returns all instances of the donation class
